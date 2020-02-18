@@ -4,24 +4,24 @@ Hellow Elsight team!
 
 Here is some explanation about the assignment. 
 
-*This repository consist of 2 scripts. one for client side and the other for server side.
+*This repository consist of 2 scripts. one is for client side and the other is for server side.
 *To run the scripts you will have to supply some command line arguments. some of them are mandatory and some are optional.
 
 *client side arguments:
 
-  address - a mandatory -represents the adderss to send a ping for the format should be {IP:port}.
+  address - a mandatory - Represents the adderss to send a ping for. the format should be {IP:port}.
   for example: 127.0.0.1:5000. it sholud be the first argument
   
-  message (-m or --message) - optional - A message to send with the ping if no message was given, a default message will be used.
+  message (-m or --message) - optional - A message to send with the ping. if no message was given, a default message will be used.
   
-  protocol (-p or --protocol) - optional - The protocol to use for the ping should be one of the following:
+  protocol (-p or --protocol) - optional - The protocol to use for the ping. should be one of the following:
   "UDP" , "udp" ,"TCP" ,"tcp".
-  if no protocol was given we will use UDP
+  if no protocol was given we will use UDP.
   
   size (-s or --size) - optional - The buffer size for TCP connection. should be grater than 0.
   if no size was spicefied we will set the size to 1024.
   
-  timeout (-t or --timeout) - optional - The timeout for TCP connection should be be grater than 0.
+  timeout (-t or --timeout) - optional - The timeout for TCP connection. should be be grater than 0.
   if no timeout was spicefied we will set the timeout to 10.
   
   
