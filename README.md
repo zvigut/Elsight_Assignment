@@ -44,4 +44,5 @@ Here is some explanation about the assignment.
   example: 
   
   python server_side_ping.py 5000 -p tcp
+  
   python client_side_ping.py 127.0.0.1:5000 -m "Hellow world!"  --protocol tcp -s 2048 -t 120
