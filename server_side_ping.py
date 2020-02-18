@@ -2,7 +2,6 @@ import socket
 import argparse
 
 parser = argparse.ArgumentParser()
-
 parser.add_argument("port", type=int, help="port to bind to socket to")
 parser.add_argument("-p", "--protocol", type=str, choices=["UDP", "udp", "TCP", "tcp"],
                     help='The protocol to use for the ping should be taken from : ["UDP", "udp", "TCP","tcp"]')
@@ -21,8 +20,7 @@ else:  # if no protocol was specified or UDP protocol was given
 if args.size:
     if args.size < 0:
         raise (TypeError, "size should be grater than 0")
-    size = args.size  # default size
-
+    size = args.size 
 else:
     size = 1024  # if no size was specified or size equals to 0
 
